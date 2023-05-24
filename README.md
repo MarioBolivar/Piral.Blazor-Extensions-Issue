@@ -39,11 +39,12 @@ When registering nested piral blazor extensions `<Extension/>`, these extensions
 When registering nested piral blazor extensions `<Extension/>`, these extensions render incorrectly and are duplicated. This issue is exacerbated as the number of nested extensions/layers grows.
 
 ## Supporting Images
+**Note: If images do not render correctly, you can find them in this repo under ./Supporting Images/**
 ### Two-Layers:
 ![Two-Layers](./Supporting%20Images/Two-Layers.png?raw=true "Two Layers")
 
 ### Three Layers:
-![Two-Layers](./Supporting%20Images/Three-Layers.png?raw=true "Four Layers")
+![Three-Layers](./Supporting%20Images/Three-Layers.png?raw=true "Three Layers")
 
 ### Four-Layers:
 ![Four-Layers](./Supporting%20Images/Four-Layers.png?raw=true "Four Layers")
