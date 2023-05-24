@@ -1,0 +1,17 @@
+﻿@attribute [PiralExtension("sample-extension-a")]
+
+<div class="extension-a">
+    <h1>This is sample-extension-a</h1>
+    <p>Below is nested sample-extension-b (there should only be one blue div):</p>
+
+    <Extension Name="sample-extension-b"></Extension>
+</div>
+
+<style>
+    .extension-a {
+        padding: 10px;
+        border: 3px solid red;
+        box-shadow: 0 0.6px 1.8px rgba(0, 0, 0, 0.1), 0 3.2px 7.2px rgba(0, 0, 0, 0.13);
+        border-radius: 6px;
+    }
+</style>

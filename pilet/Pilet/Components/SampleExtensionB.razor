@@ -1,0 +1,18 @@
+﻿@attribute [PiralExtension("sample-extension-b")]
+
+<div class="extension-b">
+    <p>Hello from extension b!</p>
+    
+    @* Uncomment to see problem exacerbated *@
+    @*<p>Below is extension-c</p>
+    <Extension Name="sample-extension-c"></Extension>*@
+</div>
+
+<style>
+    .extension-b {
+        padding: 10px;
+        border: 2px solid blue;
+        box-shadow: 0 0.6px 1.8px rgba(0, 0, 0, 0.1), 0 3.2px 7.2px rgba(0, 0, 0, 0.13);
+        border-radius: 6px;
+    }
+</style>
